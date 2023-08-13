@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affiliate &#8211; Trayton Acewallet</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.js"
+        integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <!-- Bootstrap CDN Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- Font Awesome CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="./Styles/index.css">
+    <link rel="stylesheet" href="./Styles/responsive.css">
+</head>
+
+<body>
+
+    <!-- nav start -->
+    <div class="header d-flex align-items-center">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-between">
+                <h2 class="logo"><a href="index.html">
+                        <img src="./assets/images/logo/logo.png" alt="">
+                    </a></h2>
+                <a id="menu-icon">&#9776;</a>
+                <nav class="navbar">
+                    <ul class="menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a class="active" href="affiliate.html">Affiliate</a></li>
+                        <li><a href="https://acewalletapp.freshdesk.com/en/support/tickets/new"
+                                target="_blank">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="d-flex align-items-center gap-3 me-5 me-sm-2 me-md-0">
+                    <div>
+                        <a id="download-link" target="_blank" class="download__btn text-decoration-none">Download</a>
+                    </div>
+                    <a href="https://apps.apple.com/us/app/ace-ewallet/id1567143706" target="_blank">
+                        <img src="./assets/images/svg/apple.svg" class="image cursor-pointer" alt="">
+                    </a>
+
+                    <a href="https://play.google.com/store/apps/details?id=com.doubleace.wallet" target="_blank">
+                        <img src="./assets/images/svg/playstore.svg" class="image cursor-pointer" alt="">
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- nav end -->
+
+    <!-- ============================= Section One Code Start Here ================================== -->
+    <section class="section__one">
+        <div class="container pt-5 pb-lg-5">
+            <div class="d-flex justify-content-center pt-5">
+                <div class="affiliate__program">
+                    <span>AFFILIATE PROGRAM
+                    </span>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <h1 class="hading__text text-center mt-5">
+                    Earn Commissions for Each Active Client You Bring
+                </h1>
+
+            </div>
+            <div class="d-flex justify-content-center">
+                <p class="sub__hading mt-3">
+                    Introduce Ace Earn to your audience and earn a steady stream of income.
+                </p>
+            </div>
+
+            <div class="d-flex justify-content-center gap-2 align-items-center">
+                <a href="#calculator" class="calculate__link text-decoration-none">
+                    Calculate Earnings
+                </a>
+                <img src="./assets/images/svg/arrow_right.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- ============================= Section One Code End Here ================================== -->
+
+
+    <!-- ============================= Section two Code Start Here =============================  -->
+    <div class="container">
+        <div class="calculatorsec" id="calculator">
+            <div class="claculatorinitialstext">
+                <h3 class="d-flex justify-content-center text-white">What's in It for You?</h3>
+                <p class="d-flex justify-content-center text-white">Make money each time an invited user earns interest.
+                </p>
+            </div>
+
+            <div class="main_card d-flex flex-wrap justify-content-between container mt-5">
+                <div class="media apy-card d-flex align-items-center">
+                    <h2 class="media_text text-light">30%</h2>
+                    <div class="media-body">
+                        <h5 class="ms-3 media_para text-light">APY of the earned interest for your investment </h5>
+                    </div>
+                </div>
+                <div class="media apy-card gg d-flex align-items-center mt-2 mt-md-0">
+                    <h2 class="media_text text-light">7.5%</h2>
+                    <div class="media-body">
+                        <h5 class="ms-3 media_para text-light"> APY of the earned interest by each direct sponsor </h5>
+                    </div>
+                </div>
+                <div class="media apy-card d-flex align-items-center mt-2 mt-md-3">
+                    <h2 class="media_text1 text-light">1.5%</h2>
+                    <div class="media-body">
+                        <h5 class="ms-3 media_para text-light">APY of the earned interest by each 2nd tier sponsor </h5>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="calculatorpart mt-5">
+
+                <div class="row">
+                    <h3 class="calculatorpart_title">Project Your Earnings</h3>
+                    <div class="col-md-12 col-lg-8">
+                        <div class="aw-calculator">
+                            <div class="cal-fields">
+                                <img src="https://trayton-acewallet.cintechagency.com/wp-content/uploads/2023/03/avatar-ace-ewallet-01.png"
+                                    width="60px" />
+                                <span> Referrer <br> 30% APY</span>
+                                <div class="cal-field">
+                                    <div class="aw-input-group">
+                                        <label>USDT Invested</label>
+                                        <input type="number" class="aw-input" id="yourself" value="1000" />
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="cal-fields mt-3  mb-3">
+                                <img src="https://trayton-acewallet.cintechagency.com/wp-content/uploads/2023/03/avatar-ace-ewallet-02.png"
+                                    width="60px" />
+                                <span> Direct Sponsor 7.5% APY</span>
+                                <div class="cal-field">
+                                    <div class="aw-input-group">
+                                        <label>USDT Each</label>
+                                        <input type="number" class="aw-input" id="directSponsor" value="1000" />
+                                    </div>
+                                    <div class="aw-input-group">
+                                        <label>No. of Sponsors</label>
+                                        <input type="number" class="aw-input" id="sponsorNumber" value="50" />
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="cal-fields">
+                                <img src="https://trayton-acewallet.cintechagency.com/wp-content/uploads/2023/03/avatar-ace-ewallet-03.png"
+                                    width="60px" />
+                                <span>2nd Tier Sponsor 1.5% APY</span>
+
+                                <div class="cal-field">
+                                    <div class="aw-input-group">
+                                        <label>USDT Each</label>
+                                        <input type="number" class="aw-input" id="tierSponsor" value="1000" />
+                                    </div>
+                                    <div class="aw-input-group">
+                                        <label>No. of Sponsors</label>
+                                        <input type="number" class="aw-input" id="tierSponsorNumber" value="100" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-4 d-flex justify-content-center align-items-end mt-5 mt-lg-0">
+                        <div class="cal-result d-flex flex-column justify-content-end">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"
+                                fill="none">
+                                <path
+                                    d="M44.0518 22.9523C44.0518 22.4138 43.6152 21.9773 43.0768 21.9773H33.0267C32.4883 21.9773 32.0518 22.4138 32.0518 22.9523V45.0023C32.0518 45.5408 32.4883 45.9773 33.0267 45.9773H43.0768C43.6152 45.9773 44.0518 45.5408 44.0518 45.0023V22.9523Z"
+                                    fill="#9EB3EE"></path>
+                                <path
+                                    d="M16.126 34.9773C16.126 34.425 15.6783 33.9773 15.126 33.9773H5.12598C4.57369 33.9773 4.12598 34.425 4.12598 34.9773V44.9773C4.12598 45.5296 4.57369 45.9773 5.12598 45.9773H15.126C15.6783 45.9773 16.126 45.5296 16.126 44.9773V34.9773Z"
+                                    fill="#9EB3EE"></path>
+                                <path
+                                    d="M30.0889 28.9523C30.0889 28.4138 29.6524 27.9773 29.1139 27.9773H19.0639C18.5254 27.9773 18.0889 28.4138 18.0889 28.9523V45.0023C18.0889 45.5408 18.5254 45.9773 19.0639 45.9773H29.1139C29.6524 45.9773 30.0889 45.5408 30.0889 45.0023V28.9523Z"
+                                    fill="#9EB3EE"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M4.69912 28.38C3.9245 27.5926 3.93488 26.3263 4.72231 25.5517L18.3135 12.1815C19.0913 11.4164 20.3388 11.4158 21.1173 12.1802L26.1943 17.1651L40.6318 2.61555C41.4099 1.83149 42.6762 1.8266 43.4603 2.60462C44.2443 3.38264 44.2492 4.64897 43.4712 5.43303L27.6323 21.3948C26.8572 22.1759 25.5967 22.1841 24.8115 21.4131L19.7174 16.4115L7.52745 28.4032C6.74002 29.1778 5.47373 29.1674 4.69912 28.38Z"
+                                    fill="#1E4DD8"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M33.1492 4.02429C33.1492 2.91972 34.0446 2.02429 35.1492 2.02429L42.0517 2.02429C43.1562 2.02429 44.0517 2.91972 44.0517 4.02429L44.0517 10.9031C44.0517 12.0077 43.1562 12.9031 42.0517 12.9031C40.9471 12.9031 40.0517 12.0077 40.0517 10.9031L40.0517 6.02429L35.1492 6.02429C34.0446 6.02429 33.1492 5.12886 33.1492 4.02429Z"
+                                    fill="#1E4DD8"></path>
+                            </svg>
+                            <h2 class="calculator-heading-title" id="calResult">$5550.00</h2>
+                            <p>Annual Percentage Yield</p>
+                            <a href="#" class="btn btn-primary download-btn d-flex justify-content-center">
+                                Download and Earn<i class="fas fa-arrow-right elementor_calculator_btn_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ============================= Getting Started Is Easy Code Start Here =============================  -->
+    <section class="getting__starting pt-5">
+        <div class="container mt-5">
+            <div class="d-flex justify-content-center">
+                <h2>
+                    Getting Started Is Easy
+                </h2>
+            </div>
+            <div class="d-flex justify-content-center mt-3">
+                <p>
+                    Become an Ace Affiliate in 3 simple steps.
+                </p>
+            </div>
+
+            <div class="row cards mt-4">
+                <div class="col-md-4 col-lg-4 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center">
+                                <div
+                                    class="circle d-flex justify-content-center text-white align-items-center rounded-circle">
+                                    1
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center mt-2">
+                                <h2>Join</h2>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <p class="text-center">
+                                    Register your account at Ace eWallet and get your unique link for your audience.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center">
+                                <div
+                                    class="circle d-flex justify-content-center text-white align-items-center rounded-circle">
+                                    2
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center mt-2">
+                                <h2>Promote </h2>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <p class="text-center">
+                                    Create content for your favorite networks and encourage followers to grow their
+                                    crypto holdings with Ace eWallet.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center">
+                                <div
+                                    class="circle d-flex justify-content-center text-white align-items-center rounded-circle">
+                                    3
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center mt-2">
+                                <h2>Earn</h2>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <p class="text-center">
+                                    When a user joins via your link, you’ll get paid each time they earn interest.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============================= Getting Started Is Easy Code End Here =============================  -->
+
+    <!-- ============================= The Perks Is Easy Code Start Here =============================  -->
+    <section class="the__perks__section mt-5">
+        <div class="container pt-5">
+            <div class="d-flex justify-content-center">
+                <h1>
+                    The Perks
+                </h1>
+            </div>
+            <div class="d-flex justify-content-center">
+                <p class="text-center">
+                    Partner with a trusted digital assets institution and get help every step of the way.
+                </p>
+            </div>
+
+            <div class="row posts__sec">
+                <div class="col-md-4 col-lg-4 col-12 mt-5">
+                    <div class="d-flex flex-column">
+                        <img src="./assets/images/svg/no-cap.svg" class="mb-3" alt="">
+                        <h3 class="mt-2 mb-3">No Cap, No Limits
+                        </h3>
+                        <p class="w-100">
+                            The more new users you introduce to Ace eWallet, the more revenue you’ll earn.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 col-12 mt-5">
+                    <div class="d-flex flex-column">
+                        <img src="./assets/images/svg/real-time-reporting.svg" class="mb-3" alt="">
+                        <h3 class="mt-2 mb-3">Real-Time Reporting
+                        </h3>
+                        <p class="w-100">
+                            Track the earnings generated by your unique links from a single dashboard.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 col-12 mt-5">
+                    <div class="d-flex flex-column">
+                        <img src="./assets/images/svg/long-cookie-duration.svg" class="mb-3" alt="">
+                        <h3 class="mt-2 mb-3">Long Cookie Duration
+                        </h3>
+                        <p class="w-100">
+                            Earn commissions for users who register after they click on your link.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 col-12 mt-5">
+                    <div class="d-flex flex-column">
+                        <img src="./assets/images/svg/professional-support.svg" class="mb-3" alt="">
+                        <h3 class="mt-2 mb-3">Professional Support
+                        </h3>
+                        <p class="w-100">
+                            Receive support from our professional customer service. We’re here for you!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 col-12 mt-5">
+                    <div class="d-flex flex-column">
+                        <img src="./assets/images/svg/daily-payout.svg" class="mb-3" alt="">
+                        <h3 class="mt-2 mb-3">Daily Payout
+                        </h3>
+                        <p class="w-100">
+                            Get daily payouts based on the activity of your referrals. The more active they are, the
+                            more you earn.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 col-12 mt-5">
+                    <div class="d-flex flex-column">
+                        <img src="./assets/images/svg/global-reach.svg" class="mb-3" alt="">
+                        <h3 class="mt-2 mb-3">Global Reach
+                        </h3>
+                        <p class="w-100">
+                            Promote Ace eWallet to users around the world and earn commissions on their activity,
+                            regardless of their location.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============================= The Perks Is Easy Code End Here =============================  -->
+
+    <!-- ============================= Who Are We Looking for? Is Easy Code Start Here =============================  -->
+    <section class="who__we__are__looking mt-5 pt-4 ">
+        <div class="container mt-5">
+            <div class="who__we__are__looking__box">
+                <div class="d-flex justify-content-center">
+                    <h1 class="text-white">
+                        Who Are We Looking for?
+                    </h1>
+                </div>
+                <div class="container seconds__alert mt-4">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-md-10">
+                            <div class="row">
+                                <div class="col-md-6 col-lg-6 col-12">
+                                    <div class="d-flex align-items-center gap-3">
+                                        <img src="./assets/images/svg/check.svg" alt="">
+                                        <h6 class="text-white mb-0">
+                                            Social media influencers
+                                        </h6>
+                                    </div>
+                                    <div class="dropdown-dividers"></div>
+                                </div>
+                                <!-- <div class="col-md-1 col-lg-1">
+                                    <div class="vl"> </div>
+                                </div> -->
+                                <div class="col-md-6 col-lg-6 col-12">
+                                    <div class="d-flex align-items-center gap-3">
+                                        <img src="./assets/images/svg/check.svg" alt="">
+                                        <h6 class="text-white mb-0">
+                                            Bloggers and podcast hosts
+                                        </h6>
+                                    </div>
+                                    <div class="dropdown-dividers"></div>
+                                </div>
+                                <div class="col-md-6 col-lg-6 col-12">
+                                    <div class="d-flex align-items-center gap-3">
+                                        <img src="./assets/images/svg/check.svg" alt="">
+                                        <h6 class="text-white mb-0">
+                                            Crypto community leaders
+                                        </h6>
+                                    </div>
+                                    <div class="dropdown-dividers show-sm"></div>
+                                </div>
+                                <!-- <div class="col-md-1 col-lg-1">
+                                        <div class="vl"> </div>
+                                    </div> -->
+                                <div class="col-md-6 col-lg-6 col-12">
+                                    <div class="d-flex align-items-center gap-3">
+                                        <img src="./assets/images/svg/check.svg" alt="">
+                                        <h6 class="text-white mb-0">
+                                            Bloggers and podcast hosts
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="download-btn" target="_blank" class="d-flex justify-content-center mt-5">
+                        <button class="download__earn__btn border-0">Download and Earn
+                            <i class='bx bx-right-arrow-alt'></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============================= Who Are We Looking for? Is Easy Code End Here =============================  -->
+
+    <!-- ============================= FAQS Is Easy Code Start Here =============================  -->
+    <section class="faqs__section mt-5">
+        <div class="container">
+            <div class="faqs__section__box">
+                <div class="d-flex justify-content-center">
+                    <h1>
+                        FAQs
+                    </h1>
+                </div>
+                <div class="d-flex justify-content-center mt-4">
+                    <div class="accodian__box">
+                        <div class="accordion">
+                            <div class="accordions-item">
+                                <div class="accordion-item-header">
+                                    Are there any requirements to become a Ace Earn Affiliate?
+                                </div><!-- /.accordion-item-header -->
+                                <div class="accordion-item-body">
+                                    <div class="accordion-item-body-content">
+                                        Web Development broadly refers to the tasks associated with developing
+                                        functional websites and applications for the Internet. The web development
+                                        process includes web design, web content development, client-side/server-side
+                                        scripting and network security configuration, among other tasks.
+                                    </div>
+                                </div><!-- /.accordion-item-body -->
+                            </div><!-- /.accordion-item -->
+                        </div>
+                        <div class="accordion">
+                            <div class="accordions-item">
+                                <div class="accordion-item-header">
+                                    Where can I track my earnings?
+                                </div><!-- /.accordion-item-header -->
+                                <div class="accordion-item-body">
+                                    <div class="accordion-item-body-content">
+                                        Web Development broadly refers to the tasks associated with developing
+                                        functional websites and applications for the Internet. The web development
+                                        process includes web design, web content development, client-side/server-side
+                                        scripting and network security configuration, among other tasks.
+                                    </div>
+                                </div><!-- /.accordion-item-body -->
+                            </div><!-- /.accordion-item -->
+                        </div>
+                        <div class="accordion">
+                            <div class="accordions-item">
+                                <div class="accordion-item-header">
+                                    How should I get started?
+                                </div><!-- /.accordion-item-header -->
+                                <div class="accordion-item-body">
+                                    <div class="accordion-item-body-content">
+                                        Web Development broadly refers to the tasks associated with developing
+                                        functional websites and applications for the Internet. The web development
+                                        process includes web design, web content development, client-side/server-side
+                                        scripting and network security configuration, among other tasks.
+                                    </div>
+                                </div><!-- /.accordion-item-body -->
+                            </div><!-- /.accordion-item -->
+                        </div>
+                        <div class="accordion">
+                            <div class="accordions-item">
+                                <div class="accordion-item-header">
+                                    Are there any prohibited marketing methods?
+                                </div><!-- /.accordion-item-header -->
+                                <div class="accordion-item-body">
+                                    <div class="accordion-item-body-content">
+                                        Web Development broadly refers to the tasks associated with developing
+                                        functional websites and applications for the Internet. The web development
+                                        process includes web design, web content development, client-side/server-side
+                                        scripting and network security configuration, among other tasks.
+                                    </div>
+                                </div><!-- /.accordion-item-body -->
+                            </div><!-- /.accordion-item -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============================= FAQS Is Easy Code End Here =============================  -->
+
+    <!-- ============================= Join Our Affiliate Program Code Start Here =============================  -->
+    <section class="join__aur__affiliate mt-5">
+        <div class="container">
+            <div class="join_aur_addiliate_box">
+                <div class="d-flex justify-content-center">
+                    <h1 class="text-white">
+                        Join Our Affiliate Program
+                    </h1>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <p class="text-white mt-3 mb-4">
+                        Help your audience unlock the power of their crypto and earn ongoing passive income.
+                    </p>
+                </div>
+
+                <div class="d-flex justify-content-center align-items-center gap-4 flex-wrap">
+                    <div id="download-btn" target="_blank" class="download__button">
+                        <a href="#" class="download-btn">
+                            <button class="text-white border-0 d-flex justify-content-center align-items-center">
+                                Download and Earn
+                            </button>
+                        </a>
+                    </div>
+                    <a href="https://apps.apple.com/us/app/ace-ewallet/id1567143706" target="_blank">
+                        <img src="./assets/images/svg/apple.svg" class="image cursor-pointer" alt="">
+                    </a>
+
+                    <a href="https://play.google.com/store/apps/details?id=com.doubleace.wallet" target="_blank">
+                        <img src="./assets/images/svg/playstore.svg" class="image cursor-pointer" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============================= Join Our Affiliate Program Code End Here =============================  -->
+
+
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-content pt-5 pb-4">
+                <div>
+                    <div class="d-flex flex-column">
+                        <div class="row flex-wrap">
+                            <div class="col-xl-3 col-lg-3 mb-50">
+                                <div class="footer-widget">
+                                    <div class="footer-logo">
+                                        <a href="index.html"><img src="./assets/images/logo/logo.png" class="img-fluid"
+                                                alt="logo"></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-3 col-md-6 mb-50">
+                                <div class="footer-widget">
+                                    <div class="footer-widget-heading">
+                                        <h3>Sign up for updates
+                                        </h3>
+                                    </div>
+                                    <div class="subscribe-form">
+                                        <form action="#">
+                                            <input type="text" placeholder="Email">
+                                            <button class="text-white">Send</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-3 mt-5 mt-md-0 col-md-6 mb-2 ">
+                                <div class="footer-widget">
+                                    <div class="footer-widget-heading">
+                                        <h3>Follow Us
+                                        </h3>
+                                    </div>
+                                    <div class="d-flex gap-3">
+                                        <a href="https://www.facebook.com/aceewallet/">
+                                            <div
+                                                class="social-cion d-flex justify-content-center align-items-center cursor-pointer">
+                                                <i class='bx bxl-facebook-circle'></i>
+                                            </div>
+                                        </a>
+                                        <a href="https://twitter.com/AceEwallet">
+                                            <div
+                                                class="social-cion d-flex justify-content-center align-items-center cursor-pointer">
+                                                <i class='bx bxl-twitter'></i>
+                                            </div>
+                                        </a>
+                                        <a href="https://discord.com/invite/XDqsV4n5RG">
+                                            <div
+                                                class="social-cion d-flex justify-content-center align-items-center cursor-pointer">
+                                                <i class='bx bxl-discord-alt'></i>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-3 mt-5 mt-lg-0 col-md-6">
+                                <div class="footer-widget-heading">
+                                    <h3>
+                                        Labuan FSA license
+                                    </h3>
+                                </div>
+                                <img src="images/Section-10-Cert.png" class="w-100" alt="">
+                            </div>
+                            <div class="col-xl-9 col-lg-9 col-md-6 streets_-address">
+                                <div class="dropdown-divider"></div>
+                                <div class="row pt-3">
+                                    <div class="col-md-6 col-lg-6 col-12">
+                                        <h1>
+                                            Business Address:
+                                        </h1>
+                                        <p>
+                                            Suite 22.06 & 22.07, Level 22, Menara Exchange 106, Lingkaran TRX, Tun Razak
+                                            Exchange, 55188
+                                            Kuala Lumpur, Malaysia
+                                        </p>
+                                        <p>
+                                            Contact: +603 2110 6133
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-12 mt-3 mt-md-0">
+                                        <h1>
+                                            Labuan Office Registered Address:
+                                        </h1>
+                                        <p>
+                                            Level 15 (A1), Main Office Tower Financial Park Labuan Jalan Merdeka, 87000
+                                            Labuan F.T
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 text-lg-left">
+                        <div class="copyright-text">
+                            <p>Copyright 2023 Acewallet. All rights reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </button>
+
+    <script src="./Languages/jQuery/index.js"></script>
+    <script>
+        const accordionItemHeaders = document.querySelectorAll(".accordion-item-header");
+
+        accordionItemHeaders.forEach(accordionItemHeader => {
+            accordionItemHeader.addEventListener("click", event => {
+
+                accordionItemHeader.classList.toggle("active");
+                const accordionItemBody = accordionItemHeader.nextElementSibling;
+                if (accordionItemHeader.classList.contains("active")) {
+                    accordionItemBody.style.maxHeight = accordionItemBody.scrollHeight + "px";
+                }
+                else {
+                    accordionItemBody.style.maxHeight = 0;
+                }
+
+            });
+        });
+
+
+
+    </script>
+
+    <script>
+        const yourself = document.getElementById('yourself');
+        const directSponsor = document.getElementById('directSponsor');
+        const tierSponsor = document.getElementById('tierSponsor');
+        const sponsorNumber = document.getElementById('sponsorNumber');
+        const tierSponsorNumber = document.getElementById('tierSponsorNumber');
+
+
+        yourself.addEventListener('input', Calculation);
+        directSponsor.addEventListener('input', Calculation);
+        tierSponsor.addEventListener('input', Calculation);
+        sponsorNumber.addEventListener('input', Calculation);
+        tierSponsorNumber.addEventListener('input', Calculation);
+
+
+        function Calculation() {
+            let result = (yourself.value * .30) + (directSponsor.value * sponsorNumber.value * .075) + (tierSponsor.value * tierSponsorNumber.value * .015);
+            document.querySelector('#calResult').innerHTML = '$' + result.toFixed(2);
+        }
+
+
+    </script>
+    <script>
+
+
+        document.addEventListener('DOMContentLoaded', function () {
+            let downloadLink = document.querySelectorAll('.download-btn');
+
+            Array.from(downloadLink).forEach(element => {
+                if (navigator.platform.indexOf('Win') !== -1) {
+                    // Display Windows app download link
+                    element.href = "https://play.google.com/store/apps/details?id=com.doubleace.wallet";
+                } else if (navigator.platform.indexOf('Mac') !== -1) {
+                    // Display Mac app download link
+                    element.href = "https://apps.apple.com/us/app/ace-ewallet/id1567143706";
+                } else {
+                    // Display generic app download link
+                    element.href = "https://play.google.com/store/apps/details?id=com.doubleace.wallet";
+                }
+
+            });
+        });
+
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var downloadBtn = document.getElementById('download-btn');
+            var downloadLink = document.getElementById('download-link');
+
+            if (navigator.platform.indexOf('Win') !== -1) {
+                // Display Windows app download link
+                downloadLink.href = 'https://play.google.com/store/apps/details?id=com.doubleace.wallet';
+            } else if (navigator.platform.indexOf('Mac') !== -1) {
+                // Display Mac app download link
+                downloadLink.href = 'https://apps.apple.com/us/app/ace-ewallet/id1567143706';
+            } else {
+                // Display generic app download link
+                downloadLink.href = 'https://play.google.com/store/apps/details?id=com.doubleace.wallet';
+            }
+
+            // Set the download link on button click
+            downloadBtn.addEventListener('click', function () {
+                downloadLink.click();
+            });
+        });
+    </script>
+
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,253 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+  .calculatorsec {
+    padding: 50px;
+  }
+
+  .claculatorinitialstext h3 {
+    font-size: 40px;
+  }
+
+}
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  /* CSS */
+  .calculatorsec {
+    padding: 50px;
+  }
+
+  .claculatorinitialstext h3 {
+    font-size: 40px;
+  }
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* CSS */
+  .calculatorsec {
+    padding: 50px 20px;
+  }
+
+  .claculatorinitialstext h3 {
+    font-size: 40px;
+  }
+
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  .header .expand {
+    background-color: #fff;
+  }
+
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  /* CSS */
+  .the__perks__section p {
+    width: 100%;
+  }
+
+  .section__one .hading__text {
+    font-size: 30px;
+  }
+
+  .section__one .sub__hading {
+    font-size: 18px;
+  }
+
+  .header .expand {
+    background-color: #fff;
+  }
+
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 280px to 479px
+  */
+
+@media (min-width: 280px) and (max-width: 480px) {
+
+  /* CSS */
+  .section__one .hading__text {
+    font-size: 28px;
+  }
+
+  .section__one .sub__hading {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .header .expand {
+    background-color: #fff;
+    width: 100%;
+  }
+
+  .project__box .project__content .row__dash {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .project__box .project__content .row__dash .left__side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .project__box .project__content .inputs {
+    width: 100%;
+  }
+
+  .faqs__section .faqs__section__box {
+
+    padding: 40px 0px 40px 7px;
+  }
+
+  .faqs__section .faqs__section__box .accodian__box {
+    width: 100%;
+  }
+
+
+  .section__two h1 {
+    font-size: 19px;
+  }
+
+  .header .download__btn {
+    display: none;
+  }
+
+  /* .image:nth-last-child(1) {
+    margin-right: 36px;
+  } */
+
+  .section__two p {
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+  }
+
+  .section__two .box__content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section__two .box__content .sub__had {
+    text-align: center;
+  }
+
+  .section__two .project__box {
+    padding: 25px 17px 12px 16px;
+  }
+
+  .section__two .project__box .hading__text {
+    font-size: 17px;
+  }
+
+  .media_text {
+    font-size: 25px;
+  }
+
+  .media_text1 {
+    font-size: 25px;
+  }
+
+  .media_para {
+    font-size: 14px;
+  }
+
+  .getting__starting p {
+    font-size: 23px;
+    line-height: 33px;
+  }
+
+  .getting__starting .cards .card {
+    margin-bottom: 20px;
+  }
+
+  .who__we__are__looking .who__we__are__looking__box h1 {
+    font-size: 30px;
+  }
+
+  .section__two {
+    padding: 36px 6px 40px 6px;
+  }
+
+  .the__perks__section p {
+    width: 100%;
+    font-size: 18px;
+    line-height: 33px;
+  }
+
+  .who__we__are__looking .who__we__are__looking__box {
+    padding: 30px 10px;
+  }
+
+  .who__we__are__looking .who__we__are__looking__box .seconds__alert h6 {
+    font-size: 14px;
+    line-height: 1.4rem;
+    font-weight: 500;
+  }
+
+  .who__we__are__looking .who__we__are__looking__box .seconds__alert .download__earn__btn {
+    padding: 16px 20px;
+  }
+
+  .faqs__section .faqs__section__box .accodian__box {
+    width: 95%;
+  }
+
+  .accordion-item-header {
+    font-size: 16px !important;
+  }
+
+  .join__aur__affiliate .join_aur_addiliate_box .download__button button {
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #00A76A;
+    border-radius: 10px 10px 10px 10px;
+    padding: 11px 14px 11px 14px;
+    margin-bottom: 20px;
+  }
+  .join__aur__affiliate .join_aur_addiliate_box{
+    padding: 20px;
+  }
+
+  .subscribe-form button {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .footer-content .streets_-address {
+    margin-top: 10px;
+  }
+}

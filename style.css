@@ -1,0 +1,872 @@
+/*nav start*/
+.my-color {
+  background: #0b2379;
+}
+
+.logo_img {
+  width: 80px;
+
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+}
+
+#navbarSupportedContent .nav-icon {
+  font-family: 'Poppins', sans-serif;
+
+  font-size: 17px;
+}
+
+/*nav end*/
+/*---------------------
+  Banner
+-----------------------*/
+.banner {
+  padding-top: 120px;
+  background: #122f83;
+
+}
+
+.banner__text {
+  margin-bottom: 100px;
+}
+
+.banner__text_heading {
+  color: #ffffff;
+  font-size: 33px;
+  font-weight: 400;
+  line-height: 43.75px;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+.banner__text_heading2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 60px;
+  line-height: 80px;
+  font-weight: 600;
+  color: #FFFFFF;
+
+
+}
+
+.banner__text_button {
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-family: 500;
+}
+
+.banner__text p {
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 33px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+
+}
+
+.banner_homeicons {
+  padding: 5px 10px;
+
+}
+
+.banner_image {
+  width: 100%;
+  margin-bottom: -70px;
+
+}
+
+.banner_image1 {
+  display: none;
+}
+
+
+.download-btn-transparent {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  width: auto;
+}
+
+.color-white {
+  color: white !important;
+}
+
+.blue-bg {
+  background-color: #046bd2;
+  background-image: radial-gradient(at center center, #E7E7E74A 0%, #004C99 75%);
+  min-height: 180px;
+}
+
+.btn {
+  color: #fff;
+  background: #03a76a;
+  border-radius: 15px;
+  /* width: 150px; */
+}
+
+/*---------------------
+collaps
+-----------------------*/
+.tab-design {
+  background-color: #e2e9fc;
+  border-radius: 20px;
+  z-index: 10;
+  margin-top: -11%;
+}
+
+.all-content {
+  display: none;
+}
+
+#exchange-content {
+  display: block;
+}
+
+.tab-design .accordion {
+  background-color: transparent;
+}
+
+.tab-design p {
+  margin-top: 57px;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.tab-design p a {
+  color: #222;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.collaps_button {
+  margin-right: 0 !important;
+  background: bottom;
+  border-radius: 10px;
+  border-color: #0000001A;
+  padding: 8px 22px 8px 22px;
+}
+
+.collaps_button:hover {
+  background: transparent;
+}
+
+.collapse_inner_section {
+  background: transparent;
+  border: 0px;
+
+}
+
+.collapse_inner_section__text {}
+
+.collapse_inner_section__text a {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 55px;
+
+}
+
+.collapse_inner_section__text p {
+  text-align: left;
+}
+
+.collapse_inner_section__button {
+  background-color: #ec713c;
+  font-family: 'Poppins', sans-serif;
+}
+
+a.collapse_inner_section__button {
+  background-color: #ec713c;
+  margin-top: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.collapse_inner_section__button:hover {
+  background-color: #ec713c;
+  font-family: 'Poppins', sans-serif;
+}
+
+.image_class img {
+  height: 391px;
+  width: 500px;
+  /*padding-top: 15px;*/
+}
+
+.imageBox {
+  position: relative;
+  width: 100%;
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+}
+
+.imageBox img {
+  /* position: absolute; */
+  width: 291px;
+  height: 391px;
+  object-fit: contain;
+}
+
+/*---------------------
+progress
+-----------------------*/
+.progress {
+  background: #fff;
+  margin-top: 80px;
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 80px;
+}
+
+.border-div {
+  border-right: 1px solid #92947d;
+  font-family: 'Poppins', sans-serif;
+}
+
+.border-div-mob {
+  border-right: 1px solid #92947d;
+  font-family: 'Poppins', sans-serif;
+}
+
+.progress h2 {
+  color: #1e4dd8;
+}
+
+.progress p {
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  margin: 0px;
+}
+
+/*---------------------
+loyalty
+-----------------------*/
+.loyaltyimg {
+  position: relative;
+  background-image: url('./images/nexo-pro-planet-img-mobile.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  /* background-color: #000; */
+  border-radius: 20px;
+}
+
+.loyaltyimg .bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: url('./images/nexo-pro-cta-background.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.image_class_loyalty img {
+  border-radius: 18px;
+}
+
+.row_loyality_heading {
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: 500;
+  color: #496FDF;
+}
+
+.prepaid_loyality_heading {
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: 500;
+  color: #1c3abd;
+  pointer-events: none;
+}
+
+.row_loyality_heading2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+.row_loyality_parapgraph {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin-top: 20px;
+}
+
+.image_class_loyalty {
+  position: relative;
+  width: 100%;
+  object-fit: contain;
+  height: fit-content;
+}
+
+.image_class_loyalty img {
+  width: 100%;
+
+}
+
+.collapse_inner_section__button_removebg {
+  background: transparent;
+  margin-left: 33px;
+}
+
+.collapse_inner_section__button_removebg_icon {
+  color: white;
+}
+
+.collapse_inner_section__button_removebg:hover {
+  color: white;
+}
+
+/* Features */
+
+.frature_sec {
+
+  margin-top: 30px;
+  justify-content: space-between;
+  margin-left: -90px;
+
+}
+
+.comprehsensive_margin {
+  margin-top: 70px;
+}
+
+.comprehsensive_margin .card {
+  border: none;
+}
+
+.comprehsensive_heading {
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: 500;
+  color: #496FDF;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.comprehsensive_heading1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 500;
+  color: #14171A;
+  text-transform: uppercase;
+}
+
+.card {
+  /*  background-color: #F4F6FD;*/
+  /* margin: 25px 25px; */
+  border-radius: 30px;
+  /* float: left; */
+
+}
+
+.card h5 {
+  letter-spacing: 2px;
+  color: #496FDF;
+
+}
+
+.card-body {
+  border-radius: 20px;
+}
+
+.card a {
+
+  background-color: transparent;
+  color: #000;
+  border: none;
+}
+
+.card a:hover {
+
+  background-color: transparent;
+  color: #007bff;
+  border: none;
+}
+
+.card i {
+
+
+  color: #000;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.card i:hover {
+
+
+  color: #007bff;
+
+}
+
+
+.featureimg {
+
+  height: 135px;
+  width: 135px;
+  float: right;
+  margin-top: 20px;
+}
+
+/*---------------------
+As Featured In Start
+-----------------------*/
+.client_heading {
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  margin-top: 60px;
+  text-align: center;
+
+}
+
+.client_list {
+  margin-top: 20px;
+}
+
+.cliens {
+  padding: 12px 0;
+  text-align: center;
+}
+
+.cliens img {
+  max-width: 80%;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+  filter: grayscale(100);
+}
+
+.cliens img:hover {
+  filter: none;
+  transform: scale(1.1);
+}
+
+/*----Ace EWallet Screenshot carosol-----*/
+
+
+.carosol_header {
+
+  margin: 50px 0px;
+
+}
+
+.slideshow {
+  margin-bottom: 80px;
+}
+
+.owl-carousel {
+  display: block !important;
+}
+
+.owl-theme .owl-nav {
+  display: none;
+}
+
+.owl-theme .owl-dots,
+.owl-theme .owl-nav {
+  margin-top: 20px;
+}
+
+
+
+
+/*----ACE PREPAID CARD-----*/
+
+#prepaidCard {
+
+  max-height: fit-content;
+
+  padding: 80px 0;
+
+}
+
+.prepaidCard-img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.prepaidCard-img img {
+  width: 100%;
+}
+
+.prepaidCard-text {
+  padding-top: 37px;
+}
+
+/* .prepaidCard-img {
+  text-align: right;
+  padding-right: 20px;
+} */
+
+.prepaid_heading {
+  color: #222;
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  line-height: 29px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.prepaid_paragraph {
+  color: #222;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+.followusfooter {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+
+}
+
+.followusfooter1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  text-transform: none;
+  color: #4A5056;
+}
+
+.followusfooter_paragraph {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 25.6px;
+  font-weight: 400;
+  color: #4A5056;
+
+}
+
+.followusfooter_paragraph_footer {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  line-height: 25.6px;
+  font-weight: 400;
+  color: #83888C;
+}
+
+@media screen and (max-width: 1090px) {
+  /* .prepaidCard-img img {
+    width: 400px;
+    height: 300px;
+  } */
+}
+
+
+/*-----Download AceWallet Today!-----*/
+
+
+
+/*---------------------
+advertise
+-----------------------*/
+.advertise {
+  padding: 20px;
+  background: rgb(2, 3, 129);
+  margin: 80px 60px;
+  border-radius: 30px;
+
+
+}
+
+.advertiseBGimg {
+  background-image: url('images/nexo-pro-planet-img-mobile.png');
+}
+
+.advertise__text {
+  padding-top: 100px;
+}
+
+.advertise__text h2 {
+  color: #ffffff;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 55px;
+  margin-bottom: 22px;
+}
+
+.advertise__text p {
+  font-size: 15px;
+  color: #ffffff;
+
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+
+.advertise_homeicons {
+  padding: 5px 10px;
+
+}
+
+.advertise_image {
+  width: 600px;
+  height: 500px;
+  padding-right: 30px;
+  margin-bottom: -20px;
+
+}
+
+.toggler .btn {
+  color: black;
+  margin-right: 20px;
+  border-radius: 19px;
+  width: fit-content;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*---------------------
+  footer
+-----------------------*/
+
+.footer_img img {
+  height: 100px;
+  width: 150px;
+}
+
+.license_image img {
+  height: 300px;
+  width: 300px;
+}
+
+/*---------------------
+  footer end
+-----------------------*/
+
+
+
+/*Go to Top btn*/
+
+.back-to-top {
+  position: fixed;
+  display: none;
+  right: 30px;
+  bottom: 30px;
+  z-index: 11;
+  animation: 1s infinite alternate;
+  height: 30px;
+}
+
+/*Go to Top btn end*/
+
+.display-sm {
+  display: none;
+}
+
+/* responsive  */
+
+@media only screen and (max-width: 767px) {
+  .banner__text {
+    margin-bottom: 50px;
+  }
+
+  .display-sm {
+    display: block;
+  }
+
+  .show-desktop {
+    display: none;
+  }
+
+  .show-mobile {
+    display: block;
+    width: 100%;
+  }
+
+  .imageBox img {
+    height: auto;
+  }
+
+  .row_loyality_heading2 {
+    font-size: 24px;
+  }
+
+  .tab-design {
+    margin-top: -155px;
+  }
+
+  .slideshow {
+    margin-bottom: 0px;
+  }
+
+  #prepaidCard {
+    padding: 40px 0;
+  }
+
+  .prepaidCard-text {
+    padding-top: 0px;
+  }
+}
+
+@media only screen and (max-width:600px) {
+
+  /* .banner {
+    min-height: 950px;
+  } */
+
+
+
+
+
+  .banner__text_heading {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .banner__text_heading2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    line-height: 1.4rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+
+  }
+
+  .banner__text p {
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+  }
+
+  .image_class img {
+    height: 284px;
+    width: auto;
+    padding-top: 5px;
+    margin-top: 20px;
+    margin-left: -40px;
+  }
+
+  .card-body {
+    /*margin: -135px -2px;*/
+    border-radius: 20px;
+  }
+
+  .collaps_button {
+    margin-top: 10px;
+  }
+
+  /* .loyaltyimg {
+    height: 770px;
+  } */
+
+
+  .image_class_loyalty img {
+    width: 100%;
+  }
+
+  .frature_sec {
+    margin-top: 182px;
+  }
+
+  .one {
+    text-align: center;
+    margin-left: 30px;
+    font-size: 12px;
+    /*margin-bottom: 148px;*/
+  }
+
+  .two {
+    text-align: center;
+    margin-left: 30px;
+    font-size: 12px;
+    /*margin-bottom: 148px;*/
+  }
+
+  .Three {
+    text-align: center;
+    margin-left: 30px;
+    font-size: 12px;
+    /*margin-bottom: 148px;*/
+  }
+
+  .Four {
+    text-align: center;
+    margin-left: 30px;
+    font-size: 12px;
+    margin-bottom: 30px;
+  }
+
+
+  /* .prepaidCard-img img {
+    width: 300px;
+  } */
+
+  .progress {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .border-div {
+    text-align: center;
+    border: none;
+  }
+
+
+  .progress .col-md-3 {
+    flex-basis: 50%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (phones) */
+@media only screen and (max-width: 576px) {
+  .carousel-inner .col-md-3 {
+    flex-basis: 50%;
+  }
+
+}
+
+/* Small devices (tablets) */
+@media only screen and (max-width: 768px) {
+  .carousel-inner .col-md-3 {
+    flex-basis: 33.33%;
+  }
+}
+
+/* Medium devices (desktops) */
+@media only screen and (max-width: 992px) {
+  .carousel-inner .col-md-3 {
+    flex-basis: 25%;
+  }
+}
